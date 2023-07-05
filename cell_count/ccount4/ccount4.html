@@ -14,27 +14,31 @@
 </head>
 <body>
 
-    <header class="mb-3 p-2">
-        <div class="d-flex align-items-center">
-          <div>
-            <a href="../../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-house" viewBox="0 0 16 16">
-              <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
-            </svg></a>
-          </div>
-          <div class="mx-auto">
-            <h4 class="text-center">Cell Count</h4>
-          </div>
-        </div>
-      </header>
+  <header class="mb-2 p-1 text-center">
+    <div class="d-flex align-items-center">
+      <div>
+        <a href="../../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-house" viewBox="0 0 16 16">
+          <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+        </svg></a>
+      </div>
+      <div class="mx-auto">
+        <h5 class="text-center">Cell Count</h5>
+      </div>
+    </div>
+  </header>
 
   <main class="container flex-grow-1">
 
-    <div class="px-4 py-5  text-center">
-      <h2 class="display-5 fw-bold text-body-emphasis">Step 1.4: Prepare the chamber</h2>
+    <div class="px-4 pt-3 pb-2 text-center">
+      <h4 class="display-5 fw-bold text-body-emphasis">Step 1.4: Prepare the chamber</h4>
     </div>
 
     <div class="px-4 py-3 text-center">
-        <h5 class="display-5 fw-bold text-body-emphasis">1. <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#image1Modal">Breathe</button> on the center of Thoma chamber.</h5>
+        <h5 class="display-5 fw-bold text-body-emphasis">1. <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#image1Modal">
+          <b>Breathe</b>
+          <img src="../../svg icons/microphone-svgrepo-com.svg" alt="Microphone Icon" width="20" height="20">
+      </button>
+       on the center of Thoma chamber.</h5>
       </div>
       <!-- Image 1 Modal -->
       <div class="modal fade" id="image1Modal" tabindex="-1" role="dialog" aria-labelledby="image1ModalLabel" aria-hidden="true">
@@ -43,9 +47,10 @@
             <div class="modal-header">
               <h5 class="modal-title" id="image1ModalLabel">Breathe on the center of Thoma chamber</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                  <span aria-hidden="true" style="font-size: 0.85rem;"><b>Close</b></span>
               </button>
-            </div>
+          </div>
+          
             <div class="modal-body">
               <img src="./images/Breathe.jpeg" class="img-fluid" alt="Breathe on the center of Thoma chamber">
             </div>
@@ -54,7 +59,7 @@
       </div>
   
       <div class="px-4 py-3 text-center">
-        <h5 class="display-5 fw-bold text-body-emphasis">2. Put the cover on the center and <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#image2Modal">press</button> on its sides.</h5>
+        <h5 class="display-5 fw-bold text-body-emphasis">2. Put the cover on the center and <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#image2Modal"><b>press </b><img src="../../svg icons/microphone-svgrepo-com.svg" alt="Microphone Icon" width="20" height="20"></button> on its sides.</h5>
       </div>
       <!-- Image 2 Modal -->
       <div class="modal fade" id="image2Modal" tabindex="-1" role="dialog" aria-labelledby="image2ModalLabel" aria-hidden="true">
@@ -63,7 +68,7 @@
             <div class="modal-header">
               <h5 class="modal-title" id="image2ModalLabel">Put the cover on the center and press on its sides</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span aria-hidden="true" style="font-size: 0.85rem;"><b>Close</b></span>
               </button>
             </div>
             <div class="modal-body">
@@ -74,7 +79,7 @@
       </div>
   
       <div class="px-4 py-3 text-center">
-        <h5 class="display-5 fw-bold text-body-emphasis">3. Make sure the cover is tact by turning the chamber <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#videoModal">upside down</button> !</h5>
+        <h5 class="display-5 fw-bold text-body-emphasis">3. Make sure the cover is tact by turning the chamber <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#videoModal"><b>upside down</b><img src="../../svg icons/microphone-svgrepo-com.svg" alt="Microphone Icon" width="20" height="20"></button> !</h5>
       </div>
       <!-- Video Modal -->
       <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
@@ -83,7 +88,7 @@
             <div class="modal-header">
               <h5 class="modal-title" id="videoModalLabel">Make sure the cover is tact by turning the chamber upside down!</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                <span aria-hidden="true" style="font-size: 0.85rem;"><b>Close</b></span>
               </button>
             </div>
             <div class="modal-body">
@@ -97,12 +102,12 @@
 
   </main>
 
-  <div class="text-center mb-3">
+  <div class="text-center mb-1">
     <a href="../ccount3/ccount3.html"
-      ><button type="button" class="btn btn-dark btn-lg">Back</button></a
+      ><button type="button" class="btn btn-dark btn-sm">Back</button></a
     >
-    <a href="../ccount4/ccount4.html"
-      ><button type="button" class="btn btn-success btn-lg">Next</button></a
+    <a href="../ccount5/ccount5.html"
+      ><button type="button" class="btn btn-success btn-sm">Next</button></a
     >
   </div>
 

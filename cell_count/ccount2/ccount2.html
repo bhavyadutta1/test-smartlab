@@ -1,37 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CELL COUNT</title>
-
+    
     <!-- Bootstrap CSS -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../style.css">
 
-    <style>
-      body {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-      }
-
-      .content {
-        flex: 1 0 auto;
-      }
-
-      .footer {
-        flex-shrink: 0;
-      }
-    </style>
   </head>
+  
   <body>
-    <header class="mb-3 p-2">
+
+    <header class="mb-2 p-1 text-center">
       <div class="d-flex align-items-center">
         <div>
           <a href="../../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-house" viewBox="0 0 16 16">
@@ -39,56 +23,38 @@
           </svg></a>
         </div>
         <div class="mx-auto">
-          <h4 class="text-center">Cell Count</h4>
+          <h5 class="text-center">Cell Count</h5>
         </div>
       </div>
     </header>
 
-    <div class="content">
-      <main class="container flex-grow-1">
-        <div class="px-4 py-5 my-1 text-center">
-          <h2 class="display-5 fw-bold text-body-emphasis">
-            Step 1.2: Find devices
-          </h2>
+    <main class="container flex-grow-1">
+      <div class="text-center pb-1">
+        <h4 class="display-5 fw-bold text-body-emphasis">Step 1.2: Find devices</h4>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+            <figure class="figure col-4 text-center">
+                <img src="./images/Microscope.png" class="figure-img img-fluid rounded mx-auto d-block" alt="Image 1" width="175">
+                <figcaption class="figure-caption"> <b>Microscope</b> </figcaption>
+            </figure>
+    
+            <figure class="figure col-4 text-center pt-5">
+                <img src="./images/Vortex.png" class="figure-img img-fluid rounded mx-auto d-block" alt="Image 2" width="175">
+                <figcaption class="figure-caption"> <b>Vortex</b> </figcaption>
+            </figure>
         </div>
+      </div>
+    
+    
+    </main>
 
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-4">
-              <figure class="figure">
-                <img
-                  src="./images/Microscope.png"
-                  class="figure-img img-fluid rounded"
-                  style="height: 200px; width: 200px; object-fit: contain"
-                />
-                <figcaption class="figure-caption text-center">
-                  <b>Microscope</b>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-md-4">
-              <figure class="figure">
-                <img
-                  src="./images/Vortex.png"
-                  class="figure-img img-fluid rounded"
-                  style="height: 200px; width: 200px; object-fit: contain"
-                />
-                <figcaption class="figure-caption text-center">
-                  <b>Vortex</b>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </main>
-    </div>
-
-    <div class="text-center mb-3">
+    <div class="text-center mb-1">
       <a href="../ccount1/ccount1.html"
-        ><button type="button" class="btn btn-dark btn-lg">Back</button></a
+        ><button type="button" class="btn btn-dark btn-sm">Back</button></a
       >
       <a href="../ccount3/ccount3.html"
-        ><button type="button" class="btn btn-success btn-lg">Next</button></a
+        ><button type="button" class="btn btn-success btn-sm">Next</button></a
       >
     </div>
 
@@ -105,3 +71,14 @@
     <script src="main.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
