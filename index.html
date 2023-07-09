@@ -32,15 +32,24 @@
               class="btn btn-warning btn-sm"><b>Colony Forming Units</b></button></a>
         </div>
       </div>
-      <div class="px-4 pt-5 text-center">
-        <button type="button" class="btn btn-info btn-sm mt-3" data-toggle="modal" data-target="#videoModal"><b
-            style="color: black; font-size: 15px;"> How to use my glasses? </b><img src="./Yellow Microphone.svg" alt="Microphone Icon"
-            width="15" height="15"></button>
+    
+      <div class="d-flex justify-content-center">
+        <div class="px-4 pt-5 text-center">
+          <button type="button" class="btn btn-info btn-sm mt-3" data-toggle="modal" data-target="#videoModal">
+            <b style="color: black; font-size: 15px;">How to use my glasses?</b>
+            <img src="./Yellow Microphone.svg" alt="Microphone Icon" width="15" height="15">
+          </button>
+        </div>
+        <div class="ml-auto px-4 pt-5 text-center">
+          <button type="button" class="btn btn-info btn-sm mt-3" data-toggle="modal" data-target="#videoModal1">
+            <b style="color: black; font-size: 15px;">How to record video?</b>
+            <img src="./Yellow Microphone.svg" alt="Microphone Icon" width="15" height="15">
+          </button>
+        </div>
       </div>
-
+      
       <!-- Video Modal -->
-      <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel"
-        aria-hidden="true">
+      <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -58,7 +67,28 @@
           </div>
         </div>
       </div>
+      
+      <!-- Video Modal 1 -->
+      <div class="modal fade" id="videoModal1" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="videoModalLabel1">How to record video?</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" style="font-size: 0.85rem;"><b>Close</b></span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="./Smartglasses Screen record.webm" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+           
     </main>
+    
 
 
     <footer class="mt-1 p-1 text-center" style="font-size: 0.5em;">
